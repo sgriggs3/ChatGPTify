@@ -4,9 +4,9 @@ from chatgptify import *
 from user import User
 import textwrap
 
-# os.environ['SPOTIFY_CLIENT_ID']     = "Spotify Client ID"
-# os.environ['SPOTIFY_CLIENT_SECRET'] = "Spotify Client Secret"
-# os.environ['SPOTIFY_REDIRECT_URI']  = "Redirect URI, can be localhost e.g. http://localhost:8080"
+# os.environ['SPOTIFY_CLIENT_ID']     = "6a8af75e08324ff3a05dc2194eec8657"
+# os.environ['SPOTIFY_CLIENT_SECRET'] = "f6c805ec2970419cbe3fcb79d733dc71"
+# os.environ['SPOTIFY_REDIRECT_URI']  = "http://localhost:8080"
 
 
 if __name__ == "__main__":
