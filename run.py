@@ -1,3 +1,6 @@
+load_dotenv()
+import os 
+from dotenv import load_dotenv
 import argparse
 import distutils.util
 from chatgptify import *
@@ -7,6 +10,10 @@ import textwrap
 # os.environ['SPOTIFY_CLIENT_ID']     = "6a8af75e08324ff3a05dc2194eec8657"
 # os.environ['SPOTIFY_CLIENT_SECRET'] = "f6c805ec2970419cbe3fcb79d733dc71"
 # os.environ['SPOTIFY_REDIRECT_URI']  = "http://localhost:8080"
+
+load_dotenv()  
+
+spotify_client_id = os.getenv('SPOTIFY_CLIENT_ID')
 
 
 if __name__ == "__main__":
